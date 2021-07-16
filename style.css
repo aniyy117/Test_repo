@@ -1,0 +1,432 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home{
+    background: linear-gradient(113.46deg, #000000 10.07%, #031C33 51.72%, #004C92 102%);
+}
+
+.score{
+    width: 100%;
+    height: auto;
+}
+
+/*How does StockPe work?*/
+
+.mid1_section{
+    background: linear-gradient(113.46deg, #000000 10.07%, #031C33 51.72%, #004C92 102%);
+    width:100%;
+    font-family: "Poppins";
+}
+
+.headings {
+    padding-top:40px;
+}
+
+.headings h2{
+    font-weight: bold;
+    font-family: "Poppins";
+    margin: 20px auto;
+    text-align: center;
+    color: #c5d4d7;
+    font-size: 35px;
+    max-width: 600px;
+    position: relative;
+}
+
+
+.headings h2:before {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 3px;
+    background: #39becd;
+    right: 630px;
+    top: 50%;
+    position: absolute;
+  }
+.headings h2:after {
+    content: "";
+    display: block;
+    width: 400px;
+    height: 3px;
+    background: #39becd;
+    left: 600px;
+    top: 45%;
+    position: absolute;
+  }
+
+  .svg_area{
+      display:flex;
+      flex-direction: row;
+      margin-top:100px;
+      justify-content: space-around;
+      text-align: center;
+  }
+
+  .area {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    color: #f1f1f1;
+
+  }
+  
+  .area h3 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .area p {
+    max-width: 400px;
+    text-align: center;
+    font-size: 23px;
+    margin-top: 10px;
+  }
+  
+  .area .para{
+    max-width: 400px;
+    text-align: center;
+    font-size: 23px;
+    margin:10px 30px;
+  }
+  .svgs {
+    width: 200px;
+  }
+  
+  .arrow{
+    margin-top: 100px;
+    height: 20px;
+  }
+  @media only screen and (max-width: 600px) {
+  
+    .arrow{
+     margin-top: 0px;
+      margin-bottom:30px;
+      margin-left: 215px;
+      width:50px;
+      height: 10px;
+      transform: rotate(90deg) translate(5px,1px); 
+      }
+    
+    .headings {
+        padding-top:20px;
+    }
+    
+    .headings h2{
+        font-weight: bold;
+        font-family: "Poppins";
+        margin: 20px auto;
+        text-align: center;
+        color: #c5d4d7;
+        font-size: 17px;
+        max-width: 200px;
+        position: relative;
+    }
+    
+    .headings h2:before {
+        content: "";
+        display: block;
+        width: 30%;
+        height: 3px;
+        background: #39becd;
+        right: 110%;
+        top: 50%;
+        position: absolute;
+      }
+    .headings h2:after {
+        content: "";
+        display: block;
+        width: 30%;
+        height: 3px;
+        background: #39becd;
+        left: 110%;
+        top: 45%;
+        position: absolute;
+      }
+    
+      .svg_area{
+          display:flex;
+          flex-direction: column;
+          margin-top:20px;
+          justify-content: space-around;
+          text-align: center;
+      }
+    
+      .area {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 35px;
+        color: #f1f1f1;
+    
+      }
+      
+      .area h3 {
+        font-size: 20px;
+        font-weight: bold;
+        margin:10px 110px;
+        max-width: 300px;
+      }
+      
+      .area p {
+        max-width: 300px;
+        text-align: center;
+        font-size: 15px;
+        margin:10px 110px;
+      }
+      
+      .area .para{
+        max-width: 300px;
+        text-align: center;
+        font-size: 15px;
+        margin:10px 110px;
+      }
+      .svgs {
+        width: 100px;
+      }
+    
+  }
+
+
+
+  /*Get support*/
+
+  .help_svg{
+      display:flex;
+      flex-direction:row;
+      justify-content:center;
+      margin-top: 100px;
+  }
+
+
+  .need_svg{
+      width: 30%;
+      margin-right: 20px;
+  }
+
+  .customer_svg{
+    width: 32%;
+    margin-left: 20px;
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    .help_svg{
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        margin-top: 10px;
+        align-items: center;
+    }
+  
+  
+    .need_svg{
+        width: 50%;
+        
+    }
+  
+    .customer_svg{
+      width: 50%;
+      margin-right:40px;
+    }
+  }
+  
+  /*footer*/
+
+  footer{
+    background: #1b1c1d;
+    font-family: "Poppins", sans-serif;
+    color: #f1f1f1;
+  }
+
+  .footer_logo{
+    width: 150px;
+    margin: 0px 60px;
+  }
+
+  .footer_h{
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+  }
+  
+  .text__area {
+    display: flex;
+  }
+
+  .footer_logo {
+    width: 150px;
+    margin: 0px 60px;
+  }
+  
+  .about {
+    margin: 40px 60px;
+  }
+
+  .about h3{
+    font-weight:bolder;
+  }
+  
+  .footer_para {
+    font-size: 19px;
+    max-width: 300px;
+  }
+  
+  .footer_para1 {
+    font-size: 20px;
+    max-width: 280px;
+  }
+  
+  .touch {
+    margin: 40px 150px;
+  }
+
+  .touch h3{
+    font-weight: bold;
+  }
+  
+  .email_area {
+    margin-top: 20px;
+  }
+  
+  .email_area h4{
+    font-weight: bold;
+  }
+  
+  a {
+    font-size: 20px;
+    color: white;
+  }
+  
+  .btn_area {
+    margin: 30px 50px;
+  
+  }
+
+  .btn_area h3{
+    font-weight: bold;
+  }
+  
+
+  .social_media {
+    text-align: center;
+    margin: 30px 150px;
+  }
+
+  .social_media h3{
+    font-weight: bold;
+  }
+
+  .bottom{
+    display: flex;
+    
+  }
+
+  .bottom p{
+    font-size: 20px;
+  }
+
+  .p_b{
+     margin-left: 500px;
+  }
+
+  @media only screen and (max-width: 600px){
+  
+    .about h3{
+      font-size: 20px;
+      font-weight:bolder;
+    }
+
+    .touch h3{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .footer_h{
+      width: 100%;
+      height: auto;
+      padding-top: 50px;
+    }
+    
+    .text__area {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .footer_logo {
+      width: 100px;
+      margin: 0px 30px;
+    }
+    
+    .about {
+      margin: 20px 30px;
+    }
+    
+    .footer_para {
+      font-size: 15px;
+      max-width: 300px;
+    }
+    
+    .footer_para1 {
+      font-size: 15px;
+      max-width: 250px;
+    }
+    
+    .touch {
+      margin: 10px 30px;
+    }
+    
+    .email_area {
+      margin-top: 30px;
+    }
+
+    .email_area h4{
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    
+    a {
+      font-size: 15px;
+      color: white;
+    }
+    
+    .btn_area {
+      margin: 30px 30px;
+    }
+
+    .btn_area h3{
+      font-size: 20px;
+      font-weight: bold;
+    }
+    
+    .social_media {
+      margin: 10px 10px;
+    }
+
+  
+    .bottom{
+      display: flex;
+      flex-direction: column;
+      margin-left: 80px;
+      margin-top: 10px;
+    }
+  
+    .bottom p{
+      font-size: 15px;
+    }
+  
+    .p_b{
+       margin-left: 0px;
+    }
+  
+    .btn_svga{
+      width:100px;
+    }
+
+    .social_media h3{
+      font-weight: bold;
+      font-size:20px;
+    }
+  }
