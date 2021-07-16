@@ -13,6 +13,85 @@
     height: auto;
 }
 
+.stockpe_logo{
+    width:150px;
+    margin:50px 50px;
+   
+}
+.carousel{
+   width:50%;
+   padding-bottom: 40px;
+}
+
+.carousel-indicators{
+    top: 170px;
+    right: 410px;
+}
+.carousel-indicators li {
+    border-radius:50%;
+    width: 12px;
+    height: 12px;
+}
+
+.carousel-inner{
+    margin-top: 70px;
+    margin-left: 150px;
+}
+
+.carousel-item h2{
+    font-family: "Poppins";
+    font-weight: bold;
+    color: #f1f1f1;
+    max-width: 450px;
+    font-size:40px
+}
+
+.carousel-item p{
+    font-family: "Poppins";
+    color: #f1f1f1;
+    max-width: 400px;
+    font-size:20px
+}
+
+.d-flex{
+  margin-left: 145px;
+  padding-bottom: 40px;
+}
+
+
+
+input[type=text] {
+  background: linear-gradient(120deg, rgba(26, 48, 65, 0.39) -0.99%, rgba(35, 63, 89, 0.1) 75.38%);
+  border: 1px solid #33E6F6;
+  box-sizing: border-box;
+  backdrop-filter: blur(19.9973px);
+  border-radius: 11px;
+ }
+ 
+ .btn{
+   background: #33E6F6;
+   box-shadow: inset 0px 3.99946px 3.99946px rgba(0, 0, 0, 0.25);
+   border-radius: 11px;
+ }
+ 
+
+
+
+input[type=text] {
+ background: linear-gradient(120deg, rgba(26, 48, 65, 0.39) -0.99%, rgba(35, 63, 89, 0.1) 75.38%);
+ border: 1px solid #33E6F6;
+ box-sizing: border-box;
+ backdrop-filter: blur(19.9973px);
+ border-radius: 11px;
+}
+
+.btn{
+  background: #33E6F6;
+  box-shadow: inset 0px 3.99946px 3.99946px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+}
+
+
 /*How does StockPe work?*/
 
 .mid1_section{
@@ -31,7 +110,7 @@
     margin: 20px auto;
     text-align: center;
     color: #c5d4d7;
-    font-size: 35px;
+    font-size: 30px;
     max-width: 600px;
     position: relative;
 }
@@ -61,7 +140,7 @@
   .svg_area{
       display:flex;
       flex-direction: row;
-      margin-top:100px;
+      margin-top:50px;
       justify-content: space-around;
       text-align: center;
   }
@@ -75,25 +154,26 @@
   }
   
   .area h3 {
-    font-size: 30px;
+    font-size: 20px;
+    margin-top: 20px;
     font-weight: bold;
   }
   
   .area p {
-    max-width: 400px;
+    max-width: 300px;
     text-align: center;
-    font-size: 23px;
-    margin-top: 10px;
+    font-size: 15px;
+    margin:10px 20px;
   }
   
   .area .para{
-    max-width: 400px;
+    max-width: 300px;
     text-align: center;
-    font-size: 23px;
-    margin:10px 30px;
+    font-size: 15px;
+    margin:10px 50px;
   }
   .svgs {
-    width: 200px;
+    width: 150px;
   }
   
   .arrow{
@@ -197,7 +277,8 @@
       display:flex;
       flex-direction:row;
       justify-content:center;
-      margin-top: 100px;
+      margin-top: 50px;
+      padding-bottom: 70px;
   }
 
 
@@ -242,7 +323,7 @@
   }
 
   .footer_logo{
-    width: 150px;
+    width: 120px;
     margin: 0px 60px;
   }
 
@@ -256,11 +337,6 @@
     display: flex;
   }
 
-  .footer_logo {
-    width: 150px;
-    margin: 0px 60px;
-  }
-  
   .about {
     margin: 40px 60px;
   }
@@ -270,17 +346,17 @@
   }
   
   .footer_para {
-    font-size: 19px;
+    font-size: 15px;
     max-width: 300px;
   }
   
   .footer_para1 {
-    font-size: 20px;
+    font-size: 15px;
     max-width: 280px;
   }
   
   .touch {
-    margin: 40px 150px;
+    margin: 40px 120px;
   }
 
   .touch h3{
@@ -301,7 +377,7 @@
   }
   
   .btn_area {
-    margin: 30px 50px;
+    margin: 30px 40px;
   
   }
 
@@ -316,6 +392,7 @@
   }
 
   .social_media h3{
+    max-width: 300px;
     font-weight: bold;
   }
 
@@ -325,7 +402,7 @@
   }
 
   .bottom p{
-    font-size: 20px;
+    font-size: 15px;
   }
 
   .p_b{
