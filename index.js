@@ -1,5 +1,3 @@
-// Your web app's Firebase configuration
-// For Firebase JS SDK v7.20.0 and later, measurementId is optional
 var firebaseConfig = {
   apiKey: "AIzaSyCIApB9yzBZk2NgEoEvKt5MvPrbH3avjLM",
   authDomain: "data-a5aae.firebaseapp.com",
@@ -9,17 +7,32 @@ var firebaseConfig = {
   appId: "1:350928410672:web:f759883cca771cb4acb5f5",
   measurementId: "G-FSFSL3WCVR",
 };
-// Initialize Firebase
+
 firebase.initializeApp(firebaseConfig);
-firebase.analytics();
 
-var messagesRef = firebase.database().ref("contactformmessages");
+var messagesRef = firebase.database().ref("Collected Data");
 
-$("#contactForm").submit(function (e) {
+document.getElementById("contactForm").addEventListener("submit", submitForm);
+
+function submitForm(e) {
   e.preventDefault();
 
+  // Get values
+  var name = getInputVal("text");
+
+  saveMessage(text);
+  document.getElementById("contactForm").reset();
+}
+
+// Function to get get form values
+function getInputVal(id) {
+  return document.getElementById(id).value;
+}
+
+// Save message to firebase
+function saveMessage(text) {
   var newMessageRef = messagesRef.push();
   newMessageRef.set({
-    message: $(".number").val(),
+    number: text,
   });
-});
+}

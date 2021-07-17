@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+span{
+  color:#78CBBB;
+}
+
 .home{
     background: linear-gradient(113.46deg, #000000 10.07%, #031C33 51.72%, #004C92 102%);
 }
@@ -15,17 +19,17 @@
 
 .stockpe_logo{
     width:150px;
-    margin:50px 50px;
+    margin:50px 0 0 50px;
    
 }
 .carousel{
-   width:50%;
-   padding-bottom: 40px;
+   width:70%;
+   padding-bottom: 150px;
 }
 
 .carousel-indicators{
     top: 170px;
-    right: 410px;
+    right: 170px;
 }
 .carousel-indicators li {
     border-radius:50%;
@@ -66,7 +70,7 @@ input[type=text] {
   box-sizing: border-box;
   backdrop-filter: blur(19.9973px);
   border-radius: 11px;
-  width:30%;
+  width:50%;
  }
  
  .btn{
@@ -78,7 +82,11 @@ input[type=text] {
  }
 
 .landing_svg{
-  width:50%;
+  width:100%;
+
+}
+.section{
+  padding-bottom: 100px;
 }
 @media only screen and (max-width: 600px) {
 
@@ -90,23 +98,23 @@ input[type=text] {
 
 .carousel-indicators li {
   border-radius:50%;
-  width: 10px;
-  height: 10px;
+  width: 8px;
+  height: 8px;
 }
 
 .carousel{
-  width:70%;
-  padding-bottom: 40px;
+  width:90%;
+  padding-bottom: 50px;
 }
 
 .carousel-indicators{
-  top:90px;
-  right: 120px;
+  top:100px;
+  right: 170px;
 }
 
 .carousel-inner{
   margin-top: 30px;
-  margin-left: 40px;
+  margin-left: 20px;
 }
 .carousel-item h2{
   font-family: "Poppins";
@@ -119,17 +127,16 @@ input[type=text] {
 .carousel-item p{
   font-family: "Poppins";
   color: #f1f1f1;
-  max-width: 300px;
+  max-width: 200px;
   font-size:10px
 }
 
 .d-flex{
-  margin-left: 30px;
+  margin-left: 10px;
   padding-bottom: 40px;
   flex-direction: column;
   max-width: 300px;
 }
-
 
 
 input[type=text] {
@@ -150,6 +157,9 @@ width:100%;
  margin-left: 0px;
 }
 
+.landing_svg{
+  width:100%;
+}
 
 
 
