@@ -66,29 +66,93 @@ input[type=text] {
   box-sizing: border-box;
   backdrop-filter: blur(19.9973px);
   border-radius: 11px;
+  width:30%;
  }
  
  .btn{
    background: #33E6F6;
    box-shadow: inset 0px 3.99946px 3.99946px rgba(0, 0, 0, 0.25);
    border-radius: 11px;
+   padding-left: 20px;
+   margin-left: 10px;
  }
- 
+
+.landing_svg{
+  width:50%;
+}
+@media only screen and (max-width: 600px) {
+
+  .stockpe_logo{
+    width:100px;
+    margin:25px 25px;
+   
+}
+
+.carousel-indicators li {
+  border-radius:50%;
+  width: 10px;
+  height: 10px;
+}
+
+.carousel{
+  width:70%;
+  padding-bottom: 40px;
+}
+
+.carousel-indicators{
+  top:90px;
+  right: 120px;
+}
+
+.carousel-inner{
+  margin-top: 30px;
+  margin-left: 40px;
+}
+.carousel-item h2{
+  font-family: "Poppins";
+  font-weight: bold;
+  color: #f1f1f1;
+  max-width: 300px;
+  font-size: 20px;
+}
+
+.carousel-item p{
+  font-family: "Poppins";
+  color: #f1f1f1;
+  max-width: 300px;
+  font-size:10px
+}
+
+.d-flex{
+  margin-left: 30px;
+  padding-bottom: 40px;
+  flex-direction: column;
+  max-width: 300px;
+}
 
 
 
 input[type=text] {
- background: linear-gradient(120deg, rgba(26, 48, 65, 0.39) -0.99%, rgba(35, 63, 89, 0.1) 75.38%);
- border: 1px solid #33E6F6;
- box-sizing: border-box;
- backdrop-filter: blur(19.9973px);
- border-radius: 11px;
+background: linear-gradient(120deg, rgba(26, 48, 65, 0.39) -0.99%, rgba(35, 63, 89, 0.1) 75.38%);
+border: 1px solid #33E6F6;
+box-sizing: border-box;
+backdrop-filter: blur(19.9973px);
+border-radius: 11px;
+width:100%;
 }
 
 .btn{
-  background: #33E6F6;
-  box-shadow: inset 0px 3.99946px 3.99946px rgba(0, 0, 0, 0.25);
-  border-radius: 11px;
+ background: #33E6F6;
+ box-shadow: inset 0px 3.99946px 3.99946px rgba(0, 0, 0, 0.25);
+ border-radius: 11px;
+ margin-top: 10px;
+ padding-left: 20px;
+ margin-left: 0px;
+}
+
+
+
+
 }
 
 
@@ -143,6 +207,8 @@ input[type=text] {
       margin-top:50px;
       justify-content: space-around;
       text-align: center;
+      padding-left: 60px;
+      padding-right: 90px;
   }
 
   .area {
@@ -170,7 +236,7 @@ input[type=text] {
     max-width: 300px;
     text-align: center;
     font-size: 15px;
-    margin:10px 50px;
+    margin:10px 20px;
   }
   .svgs {
     width: 150px;
@@ -233,6 +299,8 @@ input[type=text] {
           margin-top:20px;
           justify-content: space-around;
           text-align: center;
+          padding-left: 0px;
+          padding-right: 0px;
       }
     
       .area {
@@ -246,7 +314,7 @@ input[type=text] {
       .area h3 {
         font-size: 20px;
         font-weight: bold;
-        margin:10px 110px;
+        margin: 10px 80px;
         max-width: 300px;
       }
       
@@ -254,17 +322,17 @@ input[type=text] {
         max-width: 300px;
         text-align: center;
         font-size: 15px;
-        margin:10px 110px;
+        margin: 10px 60px;
       }
       
       .area .para{
         max-width: 300px;
         text-align: center;
         font-size: 15px;
-        margin:10px 110px;
+        margin: 10px 70px;
       }
       .svgs {
-        width: 100px;
+        width: 80px;
       }
     
   }
@@ -343,6 +411,7 @@ input[type=text] {
 
   .about h3{
     font-weight:bolder;
+    font-size: 1.2rem;
   }
   
   .footer_para {
@@ -361,6 +430,7 @@ input[type=text] {
 
   .touch h3{
     font-weight: bold;
+    font-size: 1.2rem;
   }
   
   .email_area {
@@ -368,11 +438,12 @@ input[type=text] {
   }
   
   .email_area h4{
+    font-size: 1.2rem;
     font-weight: bold;
   }
   
   a {
-    font-size: 20px;
+    font-size: 15px;
     color: white;
   }
   
@@ -382,18 +453,24 @@ input[type=text] {
   }
 
   .btn_area h3{
+    font-size: 1.2rem;
     font-weight: bold;
   }
   
 
   .social_media {
     text-align: center;
-    margin: 30px 150px;
+    margin: 30px 100px;
   }
 
   .social_media h3{
+    font-size: 1.2rem;
     max-width: 300px;
     font-weight: bold;
+  }
+
+  .social_media_icons{
+    display: flex;
   }
 
   .bottom{
@@ -412,12 +489,12 @@ input[type=text] {
   @media only screen and (max-width: 600px){
   
     .about h3{
-      font-size: 20px;
+      font-size: 15px;
       font-weight:bolder;
     }
 
     .touch h3{
-      font-size: 20px;
+      font-size: 15px;
       font-weight: bold;
     }
     .footer_h{
@@ -441,17 +518,17 @@ input[type=text] {
     }
     
     .footer_para {
-      font-size: 15px;
-      max-width: 300px;
-    }
-    
-    .footer_para1 {
-      font-size: 15px;
+      font-size: 10px;
       max-width: 250px;
     }
     
+    .footer_para1 {
+      font-size: 10px;
+      max-width: 200px;
+    }
+    
     .touch {
-      margin: 10px 30px;
+      margin: 5px 30px;
     }
     
     .email_area {
@@ -459,13 +536,13 @@ input[type=text] {
     }
 
     .email_area h4{
-      font-size: 20px;
+      font-size: 15px;
       font-weight: bold;
     }
 
     
     a {
-      font-size: 15px;
+      font-size: 12px;
       color: white;
     }
     
@@ -474,36 +551,48 @@ input[type=text] {
     }
 
     .btn_area h3{
-      font-size: 20px;
+      font-size: 15px;
       font-weight: bold;
     }
     
     .social_media {
-      margin: 10px 10px;
+      margin: 8px 10px;
     }
 
   
     .bottom{
       display: flex;
       flex-direction: column;
+      margin-right: 80px;
       margin-left: 80px;
-      margin-top: 10px;
+      margin-top: 12px;
     }
   
     .bottom p{
-      font-size: 15px;
+      font-size: 10px;
     }
   
     .p_b{
-       margin-left: 0px;
+       margin-left: -1px;
     }
   
     .btn_svga{
-      width:100px;
+      width:90px;
     }
 
     .social_media h3{
       font-weight: bold;
       font-size:20px;
+      max-width: 140px;
+      font-size: 15px;
+    }
+
+    .social_media_icons{
+      display: flex;
+      margin-left: 15px;
+    }
+
+    .social_media_icons img{
+      width:25px;
     }
   }

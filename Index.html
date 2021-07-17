@@ -16,6 +16,14 @@
 </head>
 
 <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
+
+    <script src="index.js"></script>
+
     <div>
         <section class="home">
             <div class="logo">
@@ -45,15 +53,15 @@
                         </div>
                     </div>
                     <div class="form_area">
-                        <form class="d-flex">
-                            <input type="text" class="form-control mb-2 mr-sm-2 w-25" id="inlineFormInputName2"
+                        <form class="d-flex" id="contactForm">
+                            <input type="text" class="form-control number " id="inlineFormInputName2"
                                 placeholder="Phone number">
-                            <button type="submit" class="btn btn-primary mb-2">Get invite</button>
+                            <button type="submit" class="btn btn-primary" onclick="writeUserData()">Get invite</button>
                         </form>
                     </div>
                 </div>
                 <div class="svg-container">
-
+                    <img src="./img/Landing.png" alt="landing" class="landing_svg" />
                 </div>
             </div>
         </section>
@@ -166,15 +174,17 @@
                             </div>
                             <div class="social_media">
                                 <h3>Social media</h3>
-                                <a href="#">
-                                    <img src="img/facebook.png" alt="facebook" />
-                                </a>
-                                <a href="#">
-                                    <img src="img/instagram.png" alt="insta" />
-                                </a>
-                                <a href="#">
-                                    <img src="img/twitter.png" alt="twitter" />
-                                </a>
+                                <div class="social_media_icons">
+                                    <a href="#">
+                                        <img src="img/facebook.png" alt="facebook" />
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/instagram.png" alt="insta" />
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/twitter.png" alt="twitter" />
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <div class="bottom">
