@@ -18,9 +18,7 @@ span{
 }
 
 .stockpe_logo{
-    width:150px;
-    margin:50px 0 0 50px;
-   
+    width:150px; 
 }
 .carousel{
    width:70%;
@@ -87,6 +85,22 @@ input[type=text] {
 }
 .section{
   padding-bottom: 100px;
+}
+
+
+ul {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background: linear-gradient(269.94deg, rgba(30, 113, 237, 0.58) -2.74%, rgba(30, 113, 237, 0) 89.44%);
+  border-radius: 0px 100px 1000px 0px;
+}
+
+.nav-link {
+  color: #f1f1f1 !important;
+}
+
+.nav-link:hover {
+  color: aqua !important;
 }
 @media only screen and (max-width: 600px) {
 
@@ -168,29 +182,31 @@ width:100%;
 
 /*How does StockPe work?*/
 
-.mid1_section{
-    background: linear-gradient(113.46deg, #000000 10.07%, #031C33 51.72%, #004C92 102%);
-    width:100%;
-    font-family: "Poppins";
+.mid_section {
+  background: linear-gradient(113.46deg, #000000 10.07%, #031C33 51.72%, #004C92 102%);
+  font-family: "Poppins";
+  color: #f1f1f1;
 }
 
-.headings {
-    padding-top:40px;
+.heading {
+  font-weight: bold;
 }
 
-.headings h2{
-    font-weight: bold;
-    font-family: "Poppins";
-    margin: 20px auto;
-    text-align: center;
-    color: #c5d4d7;
-    font-size: 30px;
-    max-width: 600px;
-    position: relative;
+.mid_section h3 {
+  font-weight: bold;
+  font-size: 20px
+  
 }
 
+.mid_section p {
+  font-size: 18px
+}
 
-.headings h2:before {
+.svg {
+  width: 150px;
+}
+
+/*:before {
     content: "";
     display: block;
     width: 400px;
@@ -210,47 +226,8 @@ width:100%;
     top: 45%;
     position: absolute;
   }
-
-  .svg_area{
-      display:flex;
-      flex-direction: row;
-      margin-top:50px;
-      justify-content: space-around;
-      text-align: center;
-      padding-left: 60px;
-      padding-right: 90px;
-  }
-
-  .area {
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 70px;
-    color: #f1f1f1;
-
-  }
+*/
   
-  .area h3 {
-    font-size: 20px;
-    margin-top: 20px;
-    font-weight: bold;
-  }
-  
-  .area p {
-    max-width: 300px;
-    text-align: center;
-    font-size: 15px;
-    margin:10px 20px;
-  }
-  
-  .area .para{
-    max-width: 300px;
-    text-align: center;
-    font-size: 15px;
-    margin:10px 20px;
-  }
-  .svgs {
-    width: 150px;
-  }
   
   .arrow{
     margin-top: 100px;
@@ -267,83 +244,25 @@ width:100%;
       transform: rotate(90deg) translate(5px,1px); 
       }
     
-    .headings {
-        padding-top:20px;
-    }
-    
-    .headings h2{
+      .heading {
         font-weight: bold;
-        font-family: "Poppins";
-        margin: 20px auto;
-        text-align: center;
-        color: #c5d4d7;
-        font-size: 17px;
-        max-width: 200px;
-        position: relative;
-    }
-    
-    .headings h2:before {
-        content: "";
-        display: block;
-        width: 25%;
-        height: 3px;
-        background: #39becd;
-        right: 105%;
-        top: 50%;
-        position: absolute;
-      }
-    .headings h2:after {
-        content: "";
-        display: block;
-        width: 25%;
-        height: 3px;
-        background: #39becd;
-        left: 105%;
-        top: 50%;
-        position: absolute;
-      }
-    
-      .svg_area{
-          display:flex;
-          flex-direction: column;
-          margin-top:20px;
-          justify-content: space-around;
-          text-align: center;
-          padding-left: 0px;
-          padding-right: 0px;
-      }
-    
-      .area {
-        text-align: center;
-        margin-top: 10px;
-        margin-bottom: 35px;
-        color: #f1f1f1;
-    
+        font-size:20px;
       }
       
-      .area h3 {
-        font-size: 20px;
+      .mid_section h3 {
         font-weight: bold;
-        margin: 10px 80px;
-        max-width: 300px;
+        font-size: 15px
+        
       }
       
-      .area p {
-        max-width: 300px;
-        text-align: center;
-        font-size: 15px;
-        margin: 10px 60px;
+      .mid_section p {
+        font-size: 10px
       }
       
-      .area .para{
-        max-width: 300px;
-        text-align: center;
-        font-size: 15px;
-        margin: 10px 70px;
+      .svg {
+        width: 100px;
       }
-      .svgs {
-        width: 80px;
-      }
+      
     
   }
 
@@ -356,7 +275,7 @@ width:100%;
       flex-direction:row;
       justify-content:center;
       margin-top: 50px;
-      padding-bottom: 70px;
+      padding-bottom: 20px;
   }
 
 
@@ -382,12 +301,12 @@ width:100%;
   
   
     .need_svg{
-        width: 50%;
+        width: 70%;
         
     }
   
     .customer_svg{
-      width: 50%;
+      width: 70%;
       margin-right:40px;
     }
   }
