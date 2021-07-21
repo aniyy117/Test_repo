@@ -197,6 +197,7 @@ width:100%;
 }
 
 .mid_section h3 {
+  margin-top: 20px;
   font-weight: bold;
   font-size: 20px
   
@@ -250,12 +251,12 @@ width:100%;
     
       .heading {
         font-weight: bold;
-        font-size:20px;
+        font-size:15px;
       }
       
       .mid_section h3 {
         font-weight: bold;
-        font-size: 15px
+        font-size: 14px
         
       }
       
@@ -306,12 +307,12 @@ width:100%;
   
     .need_svg{
         width: 70%;
-        
+        margin-left: 20px;
     }
   
     .customer_svg{
       width: 70%;
-      margin-right:40px;
+      margin-right:20px;
     }
   }
   
@@ -323,6 +324,12 @@ width:100%;
     color: #f1f1f1;
 }
 
+.btn_area{
+  text-align: center;
+}
+
+
+
 .email{
   color: #f1f1f1;
 }
@@ -331,7 +338,8 @@ h4 {
     font-weight: bold;
 }
 
-p {
+.para {
+    width:300px;
     font-size: 18px;
 }
 
@@ -339,40 +347,55 @@ p {
     width: 120px;
 }
 
-.p1_div .p1 {
-    text-align: center;
+  .p1 {
+    text-align:center;
     font-size: 20px;
-    margin-top: 20px;
 }
 
-.p2_div .p2 {
+ .p2 {
+   text-align:left;
     font-size: 15px;
 }
 
+.footer_logo{
+  width:120px;
+}
 @media only screen and (max-width: 600px) {
 
+  .btn_area{
+    text-align: left;
+  }
+  
+  .social{
+    text-align:left;
+  }
+
+  .social_svg{
+    width:40px;
+  }
+  
     h4 {
         padding-bottom: 5px;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 21px;
     }
 
     p {
+
         font-size: 15px;
-        padding-bottom: 5px;
+        padding-bottom: 10px;
     }
 
     .btn_svg {
         width: 90px;
     }
 
-    .p1_div .p1 {
+    .p1 {
         text-align: center;
         font-size: 12px;
-        margin-top: 20px;
     }
 
-    .p2_div .p2 {
+    .p2 {
         text-align: center;
         font-size: 12px;
     }
