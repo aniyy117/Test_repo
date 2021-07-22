@@ -17,11 +17,7 @@
 </head>
 
 <body>
-    <!-- The core Firebase JS SDK is always required and must be listed first -->
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-database.js"></script>
 
-    <script src="https://www.gstatic.com/firebasejs/8.7.1/firebase-analytics.js"></script>
 
     <script src="index.js"></script>
     <script>
@@ -92,7 +88,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="section1 col-lg-6">
-                            <div id="carouselExampleIndicators" class="carousel slide  " data-ride="carousel">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                                     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -113,12 +109,19 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="form_area">
+                            <div class="form_area" id="myDIV">
                                 <form class="d-flex" id="contactForm">
                                     <input type="text" class="form-control number " id="inlineFormInputName2"
-                                        placeholder="Phone number">
-                                    <button type="submit" class="btn btn-primary">Get invite</button>
+                                        placeholder="Phone number" pattern="[6789][0-9]{9}" required>
+                                    <button type="submit" class="btn btn-primary" onclick="myFunction()">Get
+                                        invite</button>
                                 </form>
+                                <div style="display: none; color: #fff;" class="form_area" id="my2">
+                                    <div class="d-flex">
+                                        <p>Thank You 😁. We will notify you once your invite is ready and served hot and
+                                            fresh to your sms inbox.</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="svg-container col-lg-6">
@@ -153,7 +156,7 @@
             <div class="container-fluid">
                 <h2 class="text-center mb-4 heading">How does StockPe work?</h2>
                 <div class="row text-center p-sm-5 ">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 check">
                         <img src="/img/Tournament.png" class="img-fluid svg" alt="Responsive image">
                         <h3>Enter into tournament</h3>
                         <p>Tournament will help you learn the basics of stock market</p>
@@ -258,9 +261,71 @@
                             </div>
                         </div>
                     </div>
-
         </footer>
     </div>
+    <script>
+        function myFunction() {
+            document.getElementById("myDIV").style.display = "none";
+            document.getElementById("my2").style.display = "block";
+
+        }
+
+        function myFunction2() {
+            var elmnt = document.getElementById("carouselExampleIndicators");
+            elmnt.scrollIntoView();
+        }
+    </script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js">
+    </script>
+
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyAPTxEvnwMRBMKPozLh-gwmhzKKSfoaK3I",
+            authDomain: "test-b5876.firebaseapp.com",
+            databaseURL: "https://test-b5876-default-rtdb.firebaseio.com",
+            projectId: "test-b5876",
+            storageBucket: "test-b5876.appspot.com",
+            messagingSenderId: "454223255046",
+            appId: "1:454223255046:web:e9d18da546a0432aefd587",
+            measurementId: "G-D0F1LTLRYD"
+        };
+
+        firebase.initializeApp(firebaseConfig);
+
+        var messagesRef = firebase.database()
+            .ref('Collected Data');
+
+        document.getElementById('contactForm')
+            .addEventListener('submit', submitForm);
+
+        function submitForm(e) {
+            e.preventDefault();
+
+            // Get values
+            var phone = getInputVal('inlineFormInputName2');
+
+            saveMessage(phone);
+            document.getElementById('contactForm').reset();
+        }
+
+        // Function to get get form values
+        function getInputVal(id) {
+            return document.getElementById(id).value;
+        }
+
+        // Save message to firebase
+        function saveMessage(phone) {
+            var newMessageRef = messagesRef.push();
+            newMessageRef.set({
+                phone: phone,
+
+            });
+
+        }
+    </script>
+
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
     </script>
