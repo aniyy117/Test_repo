@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stockpe_logo{
+    width:150px; 
+}
+
+.home{
+  background-color: #1B1C1D;
+  background-image: -webkit-linear-gradient(90deg, #031C33 65%, 
+  #1B1C1D 65%);
+}
+
+.card__img{
+  filter: grayscale(1);
+  transition: 0.5s ease-in-out;
+}
+
+.card__img:hover{
+  filter: grayscale(0);
+  transition: 0.5s ease-in-out;
+}
+
+.text_area{
+  font-family: "Poppins", sans-serif;
+  color: #f1f1f1;
+  padding: 0px 300px 0px 300px; 
+}
+
+.text_area h1{
+  font-weight: bolder;
+}
+
+.text_area p{
+  font-size: 20px;
+}
+ul {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background: linear-gradient(269.94deg, rgba(30, 113, 237, 0.58) -2.74%, rgba(30, 113, 237, 0) 89.44%);
+    border-radius: 0px 100px 1000px 0px;
+  }
+  
+  .nav-link {
+    color: #f1f1f1 !important;
+  }
+  
+  .nav-link:hover {
+    color: aqua !important;
+  }
+  
+  .menu li{
+    padding: 2px 30px 5px 15px;
+  }
+
+.card{
+    width:100%;
+}
+
+
+/*footer*/
+.footer {
+    background: #1b1c1d;
+    font-family: "Poppins", sans-serif;
+    color: #f1f1f1;
+}
+
+.btn_area{
+  text-align: center;
+}
+
+
+
+.email{
+  color: #f1f1f1;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+.para {
+    width:300px;
+    font-size: 18px;
+}
+
+.btn_svg {
+    width: 120px;
+}
+
+  .p1 {
+    text-align:center;
+    font-size: 20px;
+}
+
+ .p2 {
+   text-align:left;
+    font-size: 15px;
+}
+
+.footer_logo{
+  width:120px;
+}
+@media only screen and (max-width: 600px) {
+
+  .btn_area{
+    text-align: left;
+  }
+  
+  .social{
+    text-align:left;
+  }
+
+  .social_svg{
+    width:40px;
+  }
+  
+    h4 {
+        padding-bottom: 5px;
+        font-weight: bold;
+        font-size: 21px;
+    }
+
+    p {
+
+        font-size: 15px;
+        padding-bottom: 10px;
+    }
+
+    .btn_svg {
+        width: 90px;
+    }
+
+    .p1 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .p2 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    
+.text_area{
+  padding: 0px 0px 0px 0px; 
+}
+
+.text_area h1{
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.text_area p{
+  font-size: 15px;
+}
+
+.home{
+  background-color: #1B1C1D;
+  background-image: -webkit-linear-gradient(90deg, #031C33 85%, 
+  #1B1C1D 85%);
+}
+
+.stockpe_logo{
+  width:120px; 
+  margin-top: 10px;
+}
+
+
+}
