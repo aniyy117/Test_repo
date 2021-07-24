@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 
+html{
+scroll-behavior: smooth;
+}
 .stockpe_logo{
     width:150px; 
 }
@@ -13,6 +16,15 @@
   background-image: -webkit-linear-gradient(90deg, #031C33 65%, 
   #1B1C1D 65%);
 }
+
+.btn{
+  background: #33E6F6;
+  box-shadow: inset 0px 3.99946px 3.99946px rgba(0, 0, 0, 0.25);
+  border-radius: 11px;
+  margin-top: 10px;
+  padding-left: 20px;
+  margin-left: 0px;
+ }
 
 .card__img{
   filter: grayscale(1);
@@ -169,5 +181,9 @@ h4 {
   margin-top: 10px;
 }
 
+.btn{
+  margin-top: 10px;
+  padding-right: 100px;
+ }
 
 }
