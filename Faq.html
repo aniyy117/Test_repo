@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Stockpe|FAQs</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="../img/fav.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<script>
+    var selectIds = $('#collapse1,#collapse2,#collapse3');
+    $(function ($) {
+        selectIds.on('show.bs.collapse hidden.bs.collapse', function () {
+            $(this).prev().find('.fa').toggleClass('fa-plus fa-minus');
+        })
+    });
+</script>
+
+<body>
+    <section class="faq">
+        <div class="logo px-sm-5 px-2">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a class="navbar-brand" href="#"><img src="./img/StockPe.png" alt="Stockpe"
+                        class="stockpe_logo mx-sm-5 mx-2"></a>
+                <button id="nav-toggle-button" class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mr-auto menu">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="./Index.html">Home</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="/TEAM/Team.html">Our team</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">FAQs</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#footer">Contact us</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline px-2 px-sm-5">
+                        <button class="btn btn-primary px-4 nav_btn" type="submit">Get Started</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div class="faq_body container-fluid">
+            <div class="text-center pt-sm-5 faq-header">
+                <h1>FAQs</h1>
+                <h1>Frequently Asked Questions</h1>
+            </div>
+            <div class="container py-sm-5 py-4">
+                <div id="accordion">
+                    <div class="card">
+                        <div class="card-header" id="headingOne">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
+                                    aria-expanded="true" aria-controls="collapseOne">
+                                    Collapsible Group Item Collapsible<i class="fa fa-angle-down"
+                                        aria-hidden="true"></i>
+                                </button>
+                            </h5>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingTwo">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
+                                    aria-expanded="false" aria-controls="collapseTwo">
+                                    Collapsible Group Item #2 <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingThree">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    Collapsible Group Item #3 <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                            data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingfour">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    Collapsible Group Item #4 <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapsefour" class="collapse" aria-labelledby="headingfour" data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-header" id="headingFive">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link collapsed" data-toggle="collapse"
+                                    data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    Collapsible Group Item #5 <i class="fa fa-angle-down" aria-hidden="true"></i>
+                                </button>
+                            </h5>
+                        </div>
+                        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                            <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                                squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck
+                                quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it
+                                squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica,
+                                craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur
+                                butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth
+                                nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer p-sm-5  p-3">
+        <div class="container-fluid px-sm-5">
+            <div class="logo pt-4 pt-sm-0">
+                <img src="./img/StockPe.png" class="footer_logo" alt="footer_logo" />
+            </div>
+            <div class="row">
+                <div class="col-lg-3 pt-4">
+                    <strong>About</strong>
+                    <br>
+                    <p class="para">We are simplifying stocks to create a new era of financially educated students
+                        in India.</p>
+                </div>
+                <div class="col-lg-3 px-sm-5 pt-4 ">
+                    <strong>Get in touch</strong>
+                    <p class="para">Questions or feedbacks?
+                        We would love to hear from you</p>
+                    <strong>Email us at</strong>
+                    <br>
+
+                    <a href="mailto:Hello@stockpe.tech" class="email" target="_blank">Hello@stockpe.tech</a>
+                </div>
+                <div class="col-lg-3 px-sm-5 pt-4  btn_area">
+                    <strong>Get our app</strong>
+                    <br>
+                    <a href="#carouselExampleIndicators"><img src="./img/button.png" alt="playstore"
+                            class="btn_svg" /></a>
+                </div>
+                <div class="col-lg-3 pt-4 px-sm-5 social">
+                    <strong>Social Media</strong>
+                    <br>
+
+                    <div>
+                        <a href="#" target="_blank"><img src="./img/facebook.png" alt="facebook"
+                                class="social_svg" /></a>
+                        <a href="#" target="_blank"><img src="./img/instagram.png" alt="instagram"
+                                class="social_svg" /></a>
+                        <a href="#" target="_blank"><img src="./img/linkedin.png" alt="linkedin"
+                                class="social_svg" /></a>
+                    </div>
+                </div>
+                <div class="container-fluid pt-5">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <p class="p2">© 2021 StockPe | All Rights Reserved.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <p class="p1">Made with &#10084;&#65039; for Indians</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

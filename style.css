@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
   scroll-behavior: smooth;
 }
@@ -74,7 +75,7 @@ input[type=text] {
   width:50%;
  }
  
- .btn{
+ .nav_btn{
    background: #7fe0e9;
    box-shadow: inset 0px 3.99946px 3.99946px rgba(0, 0, 0, 0.25);
    border-radius: 11px;
@@ -169,7 +170,7 @@ border-radius: 11px;
 width:100%;
 }
 
-.btn{
+.nav_btn{
  background: #33E6F6;
  box-shadow: inset 0px 3.99946px 3.99946px rgba(0, 0, 0, 0.25);
  border-radius: 11px;
@@ -343,7 +344,7 @@ h4 {
 
 .para {
     width:300px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .btn_svg {
@@ -352,12 +353,16 @@ h4 {
 
   .p1 {
     text-align:center;
-    font-size: 20px;
+    font-size: 15px;
 }
 
  .p2 {
    text-align:left;
-    font-size: 13px;
+    font-size: 15px;
+}
+
+.social_svg{
+ width:30px;
 }
 
 .footer_logo{
@@ -371,6 +376,7 @@ h4 {
   
   .social{
     text-align:left;
+    
   }
 
   .social_svg{
@@ -488,3 +494,64 @@ h4 {
     
     
   }
+
+
+
+  /*faq*/
+
+  .faq{
+    background: url("./img/Rectangle.png"), #031C33;
+    /* background-image: url(../Image/bg.jpg); */
+    width: 100%;
+    background-repeat: no-repeat !important;
+  
+
+  }
+
+  .faq-header{
+    color: #f1f1f1;
+    font-weight: bold !important;
+  }
+
+  .faq-header h1{
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder !important;
+  }
+
+  .card{
+    font-family: "Poppins", sans-serif;
+    border: none !important;
+    background:transparent;
+  }
+
+  .card-header{
+    background: #78CBBB;
+    border: none !important;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+
+  .card-body{
+    background: #161616;
+    border: none !important;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: #FFFFFF;
+  }
+
+  .btn-link {
+    text-decoration: none !important;
+    color: #161616;
+    font-weight: bolder;
+  }
+
+  .btn-link:hover{
+    color: #f1f1f1;
+  }
+
+ i{
+   font-size:1rem;
+  position: absolute;
+  top:20px;
+  right: 1rem;
+}
