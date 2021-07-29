@@ -116,6 +116,9 @@ h4 {
 .footer_logo{
   width:120px;
 }
+.social_svg{
+  width:30px;
+}
 @media only screen and (max-width: 600px) {
 
   .btn_area{
