@@ -370,6 +370,10 @@ h4 {
 }
 @media only screen and (max-width: 600px) {
 
+  .social_svg{
+    width:30px;
+   }
+
   .btn_area{
     text-align: left;
   }
@@ -379,10 +383,7 @@ h4 {
     
   }
 
-  .social_svg{
-    width:40px;
-  }
-  
+ 
     h4 {
         padding-bottom: 5px;
         font-weight: bold;
@@ -554,4 +555,59 @@ h4 {
   position: absolute;
   top:20px;
   right: 1rem;
+}
+
+@media only screen and (max-width: 600px){
+  .faq-header{
+    color: #f1f1f1;
+    font-weight: bold !important;
+  }
+
+  .faq-header h1{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder !important;
+  }
+
+  .card{
+    font-family: "Poppins", sans-serif;
+    border: none !important;
+    background:transparent;
+  }
+
+  .card-header{
+    background: #78CBBB;
+    border: none !important;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  }
+
+  .card-body{
+    background: #161616;
+    border: none !important;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+  }
+
+  .btn-link {
+    text-decoration: none !important;
+    color: #161616;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .btn-link:hover{
+    color: #f1f1f1;
+  }
+
+ i{
+   font-size:1rem;
+  position: absolute;
+  top:20px;
+  right: 1rem;
+}
+
 }
