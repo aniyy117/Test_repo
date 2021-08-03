@@ -611,3 +611,111 @@ h4 {
 }
 
 }
+
+/*Modal*/
+
+
+
+
+.modal-content {
+  background: #1D1F20;
+  color: #FFFFFF;
+}
+
+/* Style the input fields */
+input {
+  padding: 10px;
+  width: 100%;
+  font-size: 17px;
+  border: 2px solid #78CBBB;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: linear-gradient(120deg, rgba(26, 48, 65, 0.39) -0.99%, rgba(35, 63, 89, 0.1) 75.38%);
+  border: 1px solid #33E6F6;
+  backdrop-filter: blur(19.9973px);
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+
+
+/* Mark the active step: */
+.step.active {
+  opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #04AA6D;
+}
+
+.backBtn {
+  border: none;
+}
+
+.img_fram {
+  padding: 0;
+  margin: 0;
+
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.text-area p {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.modal__btn {
+  background: #33E6F6;
+  box-shadow: inset 0px 3.99946px 3.99946px rgba(0, 0, 0, 0.25);
+  border-radius: 11.9984px;
+  font-size: 15px;
+  color: #1D1F20;
+
+}
+
+
+
+
+@media screen and (max-width:1024px) {
+
+
+  .img_fram {
+      display: none;
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .text-area h1 {
+    font-size: 30px;
+  }
+
+  .text-area p {
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+
+  .text-area3 h1{
+    font-size:20px;
+  }
+  
+}
