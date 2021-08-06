@@ -624,6 +624,7 @@ h4 {
 
 /* Style the input fields */
 input {
+  color:#161616;
   padding: 10px;
   width: 100%;
   font-size: 17px;
@@ -635,6 +636,9 @@ input {
   backdrop-filter: blur(19.9973px);
 }
 
+input:focus {
+  background-color: rgb(186, 208, 209);
+}
 /* Mark input boxes that gets an error on validation: */
 input.invalid {
   background-color: #ffdddd;
@@ -670,7 +674,7 @@ input.invalid {
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
-  margin: 0;
+  margin:0;
 }
 
 /* Firefox */
