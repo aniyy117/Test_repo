@@ -11,20 +11,13 @@ scroll-behavior: smooth;
     width:150px; 
 }
 
-
-a{
-  color: #f1f1f1;
-  text-decoration: none;
-}
-
-a:hover {
-  color:rgb(14, 248, 248);
-  text-decoration: none;
-}
-.home{
-  background-color: #1B1C1D;
-  background-image: -webkit-linear-gradient(90deg, #031C33 65%, 
-  #1B1C1D 65%);
+.privacy{
+    background: url("../img/pri.png"), #031C33;
+    /* background-image: url(../Image/bg.jpg); */
+    width: 100%;
+    background-repeat: no-repeat !important;
+    background-position: top;
+    height: auto;
 }
 
 .btn{
@@ -109,6 +102,15 @@ h4 {
     font-size: 18px;
 }
 
+a{
+  color: #f1f1f1;
+  text-decoration: none;
+}
+
+a:hover {
+  color:rgb(14, 248, 248);
+  text-decoration: none;
+}
 .btn_svg {
     width: 120px;
 }
@@ -315,4 +317,50 @@ span{
     font-size:20px;
   }
   
+}
+
+
+
+.Priheaders{
+    color: #f1f1f1;
+    display:grid;
+    grid-template-columns: auto;
+    grid-gap: 130px;
+    text-align:center;
+    margin-top:130px;
+}
+
+.PriContainers{
+    margin: 100px ;
+    padding:20px 70px;
+    color: #f1f1f1;
+    background: #161616;
+    border-radius: 5px;
+}
+
+.priContainersText{
+    margin: 50px 0;
+    text-align: left;
+    
+}
+
+@media screen and (max-width:768px){
+  .Priheaders{
+
+    margin-top:140px;
+}
+
+.PriContainers{
+    margin: 20px 30px ;
+    padding:10px;
+    color: #f1f1f1;
+    background: #161616;
+    border-radius: 5px;
+}
+
+.priContainersText{
+    margin: 50px 0;
+    text-align: left;
+    
+}
 }
